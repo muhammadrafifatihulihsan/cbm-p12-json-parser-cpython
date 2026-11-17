@@ -1,0 +1,13 @@
+Runtime          : 3.13.12
+Pemindai C aktif : True
+Batas rekursi    : 1000
+
+Token angka      : 9 utuh dari 18 contoh
+Batas kedalaman  : C = 2998 | Python = 497 | parser sendiri = 497
+DFA berbatas     : k=1 maks=1, k=2 maks=2, k=3 maks=3, k=4 maks=4, k=5 maks=5, k=6 maks=6
+Pumping          : p=2 gagal=9/9, p=4 gagal=30/30, p=6 gagal=63/63, p=8 gagal=108/108, p=10 gagal=165/165
+Korpus           : 240 dari 240 dokumen sepakat
+Valid diterima   : 120 dari 120
+Mutasi tidak sah : 109 | ditolak parser: 109
+
+Hasil ditulis    : C:\Users\Pongo\Desktop\kuliah\Semester 5\Teori Bahasa dan Automata\Case Method (2) 12\ready-submit\project\cbm-p12-json-parser-cpython\hasil\hasil_eksperimen.json

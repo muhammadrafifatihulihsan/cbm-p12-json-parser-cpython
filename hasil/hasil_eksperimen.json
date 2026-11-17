@@ -1,0 +1,1041 @@
+{
+  "lingkungan": {
+    "python": "3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)]",
+    "implementasi": "CPython",
+    "platform": "Windows-11-10.0.22631-SP0",
+    "arsitektur": "AMD64",
+    "berkas_json": "C:\\Users\\Pongo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\__init__.py",
+    "modul_scanner": "_json",
+    "pemindai_c": true,
+    "batas_rekursi": 1000,
+    "waktu": "2026-11-18T01:02:15"
+  },
+  "token": {
+    "angka": [
+      {
+        "teks": "0",
+        "cocok": "0",
+        "sisa": "",
+        "utuh": true
+      },
+      {
+        "teks": "-0",
+        "cocok": "-0",
+        "sisa": "",
+        "utuh": true
+      },
+      {
+        "teks": "1",
+        "cocok": "1",
+        "sisa": "",
+        "utuh": true
+      },
+      {
+        "teks": "-12",
+        "cocok": "-12",
+        "sisa": "",
+        "utuh": true
+      },
+      {
+        "teks": "1.5",
+        "cocok": "1.5",
+        "sisa": "",
+        "utuh": true
+      },
+      {
+        "teks": "-0.25",
+        "cocok": "-0.25",
+        "sisa": "",
+        "utuh": true
+      },
+      {
+        "teks": "1e10",
+        "cocok": "1e10",
+        "sisa": "",
+        "utuh": true
+      },
+      {
+        "teks": "1E+10",
+        "cocok": "1E+10",
+        "sisa": "",
+        "utuh": true
+      },
+      {
+        "teks": "1e-3",
+        "cocok": "1e-3",
+        "sisa": "",
+        "utuh": true
+      },
+      {
+        "teks": "01",
+        "cocok": "0",
+        "sisa": "1",
+        "utuh": false
+      },
+      {
+        "teks": "+1",
+        "cocok": "",
+        "sisa": "+1",
+        "utuh": false
+      },
+      {
+        "teks": ".5",
+        "cocok": "",
+        "sisa": ".5",
+        "utuh": false
+      },
+      {
+        "teks": "1.",
+        "cocok": "1",
+        "sisa": ".",
+        "utuh": false
+      },
+      {
+        "teks": "1e",
+        "cocok": "1",
+        "sisa": "e",
+        "utuh": false
+      },
+      {
+        "teks": "--1",
+        "cocok": "",
+        "sisa": "--1",
+        "utuh": false
+      },
+      {
+        "teks": "NaN",
+        "cocok": "",
+        "sisa": "NaN",
+        "utuh": false
+      },
+      {
+        "teks": "Infinity",
+        "cocok": "",
+        "sisa": "Infinity",
+        "utuh": false
+      },
+      {
+        "teks": "1 2",
+        "cocok": "1",
+        "sisa": " 2",
+        "utuh": false
+      }
+    ],
+    "jumlah_contoh": 18,
+    "jumlah_utuh": 9,
+    "jumlah_parsial": 4,
+    "spasi": [
+      {
+        "teks": "''",
+        "panjang": 0
+      },
+      {
+        "teks": "' '",
+        "panjang": 1
+      },
+      {
+        "teks": "'  \\t'",
+        "panjang": 3
+      },
+      {
+        "teks": "'\\n\\r'",
+        "panjang": 2
+      },
+      {
+        "teks": "'x'",
+        "panjang": 0
+      },
+      {
+        "teks": "' \\n x'",
+        "panjang": 3
+      }
+    ],
+    "string_chunk": [
+      {
+        "teks": "\"abc\"",
+        "isi": "abc",
+        "akhir": "\"",
+        "posisi_akhir": 5
+      },
+      {
+        "teks": "\"a\\\\\"b\"",
+        "isi": "a",
+        "akhir": "\\",
+        "posisi_akhir": 3
+      },
+      {
+        "teks": "\"a\\\\nb\"",
+        "isi": "a",
+        "akhir": "\\",
+        "posisi_akhir": 3
+      },
+      {
+        "teks": "\"abc",
+        "isi": null,
+        "akhir": null,
+        "posisi_akhir": null
+      },
+      {
+        "teks": "\"a\\x01b\"",
+        "isi": "a",
+        "akhir": "\u0001",
+        "posisi_akhir": 3
+      }
+    ]
+  },
+  "kedalaman": {
+    "c": {
+      "label": "pemindai C (_json)",
+      "maks_diterima": 2998,
+      "uji_batas": [
+        {
+          "kedalaman": 2998,
+          "status": "diterima",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 2999,
+          "status": "RecursionError",
+          "kode_keluar": 0
+        }
+      ],
+      "jejak_pencarian": [
+        {
+          "kedalaman": 4000,
+          "status": "RecursionError",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 2001,
+          "status": "diterima",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 3001,
+          "status": "RecursionError",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 2501,
+          "status": "diterima",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 2751,
+          "status": "diterima",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 2876,
+          "status": "diterima",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 2938,
+          "status": "diterima",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 2969,
+          "status": "diterima",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 2985,
+          "status": "diterima",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 2993,
+          "status": "diterima",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 2997,
+          "status": "diterima",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 2999,
+          "status": "RecursionError",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 2998,
+          "status": "diterima",
+          "kode_keluar": 0
+        }
+      ],
+      "status_gagal": "RecursionError"
+    },
+    "python": {
+      "label": "pemindai Python (py_make_scanner)",
+      "maks_diterima": 497,
+      "uji_batas": [
+        {
+          "kedalaman": 497,
+          "status": "diterima",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 498,
+          "status": "RecursionError",
+          "kode_keluar": 0
+        }
+      ],
+      "jejak_pencarian": [
+        {
+          "kedalaman": 1000,
+          "status": "RecursionError",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 501,
+          "status": "RecursionError",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 251,
+          "status": "diterima",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 376,
+          "status": "diterima",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 438,
+          "status": "diterima",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 469,
+          "status": "diterima",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 485,
+          "status": "diterima",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 493,
+          "status": "diterima",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 497,
+          "status": "diterima",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 499,
+          "status": "RecursionError",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 498,
+          "status": "RecursionError",
+          "kode_keluar": 0
+        }
+      ],
+      "status_gagal": "RecursionError"
+    },
+    "sendiri": {
+      "label": "parser turunan rekursif sendiri",
+      "maks_diterima": 497,
+      "uji_batas": [
+        {
+          "kedalaman": 497,
+          "status": "diterima",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 498,
+          "status": "RecursionError",
+          "kode_keluar": 0
+        }
+      ],
+      "jejak_pencarian": [
+        {
+          "kedalaman": 1000,
+          "status": "RecursionError",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 501,
+          "status": "RecursionError",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 251,
+          "status": "diterima",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 376,
+          "status": "diterima",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 438,
+          "status": "diterima",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 469,
+          "status": "diterima",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 485,
+          "status": "diterima",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 493,
+          "status": "diterima",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 497,
+          "status": "diterima",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 499,
+          "status": "RecursionError",
+          "kode_keluar": 0
+        },
+        {
+          "kedalaman": 498,
+          "status": "RecursionError",
+          "kode_keluar": 0
+        }
+      ],
+      "status_gagal": "RecursionError"
+    }
+  },
+  "otomat": {
+    "rincian": {
+      "1": [
+        {
+          "kedalaman": 0,
+          "panjang": 0,
+          "dfa": true,
+          "regex": true,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 1,
+          "panjang": 2,
+          "dfa": true,
+          "regex": true,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 2,
+          "panjang": 4,
+          "dfa": false,
+          "regex": false,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 3,
+          "panjang": 6,
+          "dfa": false,
+          "regex": false,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 4,
+          "panjang": 8,
+          "dfa": false,
+          "regex": false,
+          "seimbang": true
+        }
+      ],
+      "2": [
+        {
+          "kedalaman": 0,
+          "panjang": 0,
+          "dfa": true,
+          "regex": true,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 1,
+          "panjang": 2,
+          "dfa": true,
+          "regex": true,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 2,
+          "panjang": 4,
+          "dfa": true,
+          "regex": true,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 3,
+          "panjang": 6,
+          "dfa": false,
+          "regex": false,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 4,
+          "panjang": 8,
+          "dfa": false,
+          "regex": false,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 5,
+          "panjang": 10,
+          "dfa": false,
+          "regex": false,
+          "seimbang": true
+        }
+      ],
+      "3": [
+        {
+          "kedalaman": 0,
+          "panjang": 0,
+          "dfa": true,
+          "regex": true,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 1,
+          "panjang": 2,
+          "dfa": true,
+          "regex": true,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 2,
+          "panjang": 4,
+          "dfa": true,
+          "regex": true,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 3,
+          "panjang": 6,
+          "dfa": true,
+          "regex": true,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 4,
+          "panjang": 8,
+          "dfa": false,
+          "regex": false,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 5,
+          "panjang": 10,
+          "dfa": false,
+          "regex": false,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 6,
+          "panjang": 12,
+          "dfa": false,
+          "regex": false,
+          "seimbang": true
+        }
+      ],
+      "4": [
+        {
+          "kedalaman": 0,
+          "panjang": 0,
+          "dfa": true,
+          "regex": true,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 1,
+          "panjang": 2,
+          "dfa": true,
+          "regex": true,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 2,
+          "panjang": 4,
+          "dfa": true,
+          "regex": true,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 3,
+          "panjang": 6,
+          "dfa": true,
+          "regex": true,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 4,
+          "panjang": 8,
+          "dfa": true,
+          "regex": true,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 5,
+          "panjang": 10,
+          "dfa": false,
+          "regex": false,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 6,
+          "panjang": 12,
+          "dfa": false,
+          "regex": false,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 7,
+          "panjang": 14,
+          "dfa": false,
+          "regex": false,
+          "seimbang": true
+        }
+      ],
+      "5": [
+        {
+          "kedalaman": 0,
+          "panjang": 0,
+          "dfa": true,
+          "regex": true,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 1,
+          "panjang": 2,
+          "dfa": true,
+          "regex": true,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 2,
+          "panjang": 4,
+          "dfa": true,
+          "regex": true,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 3,
+          "panjang": 6,
+          "dfa": true,
+          "regex": true,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 4,
+          "panjang": 8,
+          "dfa": true,
+          "regex": true,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 5,
+          "panjang": 10,
+          "dfa": true,
+          "regex": true,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 6,
+          "panjang": 12,
+          "dfa": false,
+          "regex": false,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 7,
+          "panjang": 14,
+          "dfa": false,
+          "regex": false,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 8,
+          "panjang": 16,
+          "dfa": false,
+          "regex": false,
+          "seimbang": true
+        }
+      ],
+      "6": [
+        {
+          "kedalaman": 0,
+          "panjang": 0,
+          "dfa": true,
+          "regex": true,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 1,
+          "panjang": 2,
+          "dfa": true,
+          "regex": true,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 2,
+          "panjang": 4,
+          "dfa": true,
+          "regex": true,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 3,
+          "panjang": 6,
+          "dfa": true,
+          "regex": true,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 4,
+          "panjang": 8,
+          "dfa": true,
+          "regex": true,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 5,
+          "panjang": 10,
+          "dfa": true,
+          "regex": true,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 6,
+          "panjang": 12,
+          "dfa": true,
+          "regex": true,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 7,
+          "panjang": 14,
+          "dfa": false,
+          "regex": false,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 8,
+          "panjang": 16,
+          "dfa": false,
+          "regex": false,
+          "seimbang": true
+        },
+        {
+          "kedalaman": 9,
+          "panjang": 18,
+          "dfa": false,
+          "regex": false,
+          "seimbang": true
+        }
+      ]
+    },
+    "ringkasan": [
+      {
+        "k": 1,
+        "state_dfa": 3,
+        "transisi_dfa": 6,
+        "kedalaman_maks_dfa": 1,
+        "kedalaman_maks_regex": 1,
+        "uji_di_atas_batas": {
+          "kedalaman": 2,
+          "panjang": 4,
+          "dfa": false,
+          "regex": false,
+          "seimbang": true
+        }
+      },
+      {
+        "k": 2,
+        "state_dfa": 4,
+        "transisi_dfa": 8,
+        "kedalaman_maks_dfa": 2,
+        "kedalaman_maks_regex": 2,
+        "uji_di_atas_batas": {
+          "kedalaman": 3,
+          "panjang": 6,
+          "dfa": false,
+          "regex": false,
+          "seimbang": true
+        }
+      },
+      {
+        "k": 3,
+        "state_dfa": 5,
+        "transisi_dfa": 10,
+        "kedalaman_maks_dfa": 3,
+        "kedalaman_maks_regex": 3,
+        "uji_di_atas_batas": {
+          "kedalaman": 4,
+          "panjang": 8,
+          "dfa": false,
+          "regex": false,
+          "seimbang": true
+        }
+      },
+      {
+        "k": 4,
+        "state_dfa": 6,
+        "transisi_dfa": 12,
+        "kedalaman_maks_dfa": 4,
+        "kedalaman_maks_regex": 4,
+        "uji_di_atas_batas": {
+          "kedalaman": 5,
+          "panjang": 10,
+          "dfa": false,
+          "regex": false,
+          "seimbang": true
+        }
+      },
+      {
+        "k": 5,
+        "state_dfa": 7,
+        "transisi_dfa": 14,
+        "kedalaman_maks_dfa": 5,
+        "kedalaman_maks_regex": 5,
+        "uji_di_atas_batas": {
+          "kedalaman": 6,
+          "panjang": 12,
+          "dfa": false,
+          "regex": false,
+          "seimbang": true
+        }
+      },
+      {
+        "k": 6,
+        "state_dfa": 8,
+        "transisi_dfa": 16,
+        "kedalaman_maks_dfa": 6,
+        "kedalaman_maks_regex": 6,
+        "uji_di_atas_batas": {
+          "kedalaman": 7,
+          "panjang": 14,
+          "dfa": false,
+          "regex": false,
+          "seimbang": true
+        }
+      }
+    ]
+  },
+  "pumping": {
+    "hasil": [
+      {
+        "p": 2,
+        "w": "(())",
+        "panjang_w": 4,
+        "jumlah_dekomposisi": 3,
+        "jumlah_uji": 9,
+        "jumlah_gagal": 9,
+        "semua_gagal": true,
+        "contoh": {
+          "x": "",
+          "y": "(",
+          "z": "())",
+          "i": 0,
+          "hasil": "())",
+          "panjang": 3,
+          "seimbang": false
+        }
+      },
+      {
+        "p": 4,
+        "w": "(((())))",
+        "panjang_w": 8,
+        "jumlah_dekomposisi": 10,
+        "jumlah_uji": 30,
+        "jumlah_gagal": 30,
+        "semua_gagal": true,
+        "contoh": {
+          "x": "",
+          "y": "(",
+          "z": "((())))",
+          "i": 0,
+          "hasil": "((())))",
+          "panjang": 7,
+          "seimbang": false
+        }
+      },
+      {
+        "p": 6,
+        "w": "(((((())))))",
+        "panjang_w": 12,
+        "jumlah_dekomposisi": 21,
+        "jumlah_uji": 63,
+        "jumlah_gagal": 63,
+        "semua_gagal": true,
+        "contoh": {
+          "x": "",
+          "y": "(",
+          "z": "((((())))))",
+          "i": 0,
+          "hasil": "((((())))))",
+          "panjang": 11,
+          "seimbang": false
+        }
+      },
+      {
+        "p": 8,
+        "w": "(((((((())))))))",
+        "panjang_w": 16,
+        "jumlah_dekomposisi": 36,
+        "jumlah_uji": 108,
+        "jumlah_gagal": 108,
+        "semua_gagal": true,
+        "contoh": {
+          "x": "",
+          "y": "(",
+          "z": "((((((())))))))",
+          "i": 0,
+          "hasil": "((((((())))))))",
+          "panjang": 15,
+          "seimbang": false
+        }
+      },
+      {
+        "p": 10,
+        "w": "(((((((((())))))))))",
+        "panjang_w": 20,
+        "jumlah_dekomposisi": 55,
+        "jumlah_uji": 165,
+        "jumlah_gagal": 165,
+        "semua_gagal": true,
+        "contoh": {
+          "x": "",
+          "y": "(",
+          "z": "((((((((())))))))))",
+          "i": 0,
+          "hasil": "((((((((())))))))))",
+          "panjang": 19,
+          "seimbang": false
+        }
+      }
+    ],
+    "semua_y_hanya_buka": true
+  },
+  "korpus": {
+    "jumlah_valid": 120,
+    "jumlah_mutasi": 120,
+    "mutasi_tetap_sah": 11,
+    "mutasi_tidak_sah": 109,
+    "mutasi_tidak_sah_ditolak_sendiri": 109,
+    "jumlah_total": 240,
+    "setuju": 240,
+    "beda": [],
+    "valid_diterima": 120,
+    "invalid_ditolak": 109,
+    "benih": 20261118,
+    "contoh_valid": [
+      "[true]",
+      "0",
+      "{}",
+      "\"kata kunci\"",
+      "true"
+    ],
+    "contoh_mutasi_sah": [
+      "\"}\"",
+      "\"a]\"",
+      "\"k]ta kunci\"",
+      "\"baris\\nbar]u\"",
+      "\"bar]is\\nbaru\""
+    ],
+    "contoh_mutasi_tidak_sah": [
+      "{\"kunci\": 1rue, \"a\": {\"nilai\": -7, \"a\": null, \"kunci\": {}}, \"nama\": true}",
+      "\"",
+      "}-7",
+      "7}",
+      ""
+    ]
+  },
+  "nonstandar": [
+    {
+      "teks": "NaN",
+      "json_cpython": "diterima (nan)",
+      "parser_sendiri": "ditolak"
+    },
+    {
+      "teks": "Infinity",
+      "json_cpython": "diterima (inf)",
+      "parser_sendiri": "ditolak"
+    },
+    {
+      "teks": "-Infinity",
+      "json_cpython": "diterima (-inf)",
+      "parser_sendiri": "ditolak"
+    }
+  ],
+  "beda_versi": [
+    {
+      "teks": "1٢",
+      "kode": "1\\u0662",
+      "cocok_3130": "1٢",
+      "cocok_31312": "1"
+    },
+    {
+      "teks": "١٢",
+      "kode": "\\u0661\\u0662",
+      "cocok_3130": null,
+      "cocok_31312": null
+    },
+    {
+      "teks": "12",
+      "kode": "12",
+      "cocok_3130": "12",
+      "cocok_31312": "12"
+    }
+  ],
+  "contoh": [
+    {
+      "teks": "{\"nama\": \"Rafi\", \"nilai\": [1, 2, 3], \"aktif\": true}",
+      "json_cpython": "diterima",
+      "parser_sendiri": "diterima",
+      "kedalaman": 2
+    },
+    {
+      "teks": "[[[[0]]]]",
+      "json_cpython": "diterima",
+      "parser_sendiri": "diterima",
+      "kedalaman": 4
+    },
+    {
+      "teks": "{\"a\": {\"b\": [{\"c\": []}]}}",
+      "json_cpython": "diterima",
+      "parser_sendiri": "diterima",
+      "kedalaman": 5
+    },
+    {
+      "teks": "{\"a\": 1,}",
+      "json_cpython": "ditolak (JSONDecodeError)",
+      "parser_sendiri": "ditolak (KesalahanJSON)",
+      "kedalaman": null
+    },
+    {
+      "teks": "][",
+      "json_cpython": "ditolak (JSONDecodeError)",
+      "parser_sendiri": "ditolak (KesalahanJSON)",
+      "kedalaman": null
+    },
+    {
+      "teks": "",
+      "json_cpython": "ditolak (JSONDecodeError)",
+      "parser_sendiri": "ditolak (KesalahanJSON)",
+      "kedalaman": null
+    }
+  ]
+}
